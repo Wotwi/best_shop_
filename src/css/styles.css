@@ -93,3 +93,16 @@ a {
     color: #fff;
     margin-top: 2.375rem;
 }
+
+.statistics {
+
+}
+
+.statistics .statistics__wrapper {
+
+}
+
+.statistics__wrapper .statistics__element {}
+.statistics__wrapper .statistics__element .statistics__image {}
+.statistics__wrapper .statistics__element .statistics__subtitle {}
+.statistics__wrapper .statistics__element .statistics__text {}
