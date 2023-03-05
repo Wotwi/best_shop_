@@ -129,17 +129,17 @@ a {
 .statistics__element .first__circle {
     background-color: var(--color_shape_first);
     position: relative;
-    left: 0.8rem;
+    left: 1.5rem;
 }
 .statistics__element .second__circle {
     background-color: var(--color_primary);
     position: relative;
-    left: 3.5rem;
+    left: 2.2rem;
 }
 .statistics__element .third__circle {
     background-color: var(--color_shape_second);
     position: relative;
-    left: 2rem;
+    left: 1.5rem;
 }
 
 .statistics__element .statistics__image.statistics__image--first {
@@ -166,4 +166,5 @@ a {
 }
 .statistics__wrapper .statistics__element .statistics__text {
     color: #A5A5A5;
+    width: 7rem;
 }
