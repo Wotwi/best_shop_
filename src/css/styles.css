@@ -40,9 +40,11 @@ a {
     color: var(--color_primary);
     font-family: var(--font-raleway);
     font-size: 2rem;
+    margin-left: 8.5rem;
 }
 .header nav .nav__element{
     font-family: var(--font-open-sans);
+    font-weight: 700;
     color: #A5A5A5;
     text-transform: uppercase;
     font-size: 0.6875rem;
@@ -53,4 +55,41 @@ a {
 .header nav .nav__element:hover {
     color: black;
     border-bottom: 3px solid #08A6E4;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .hero__content {
+    margin-top: 8.125rem;
+}
+
+.hero .hero__content .hero__header {
+    font-family: var(--font-raleway);
+    font-size: 3.0625rem;
+    font-weight: 400;
+}
+
+.hero .hero__content .hero__text {
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    margin-top: 1.25rem;
+}
+
+.hero .hero__content .btn--primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27.5rem;
+    height: 4.1875rem;
+    background-color: var(--color_primary);
+    font-weight: 700;
+    border-radius: 2.5rem;
+    color: #fff;
+    margin-top: 2.375rem;
 }
