@@ -169,12 +169,13 @@ a {
     width: 7rem;
 }
 
-.benefits {
+/*Below are css selectors for benefits page*/
 
+.benefits {
+    background-color: #F7F7F7; /*żeby nie było rozlane na całą szerokość, przerzucić do .benefits__container*/
 }
 
 .benefits .benefits__container {
-    background-color: #F7F7F7;
     padding: 6.5625rem;
 }
 
@@ -277,3 +278,18 @@ a {
     justify-content: space-between;
 }
 
+/*Below are css selectors for pricing page*/
+
+.pricing {}
+
+.pricing .pricing__container {}
+
+.pricing .pricing__container .pricing__header {}
+
+.pricing .pricing__container .pricing__box {}
+
+.pricing .pricing__box .pricing__box__version {}
+
+.pricing .pricing__box .pricing__list {}
+
+.pricing .pricing__box .pricing__box__btn {}
