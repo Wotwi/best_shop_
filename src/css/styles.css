@@ -280,16 +280,94 @@ a {
 
 /*Below are css selectors for pricing page*/
 
-.pricing {}
+.pricing {
+    width: 100%;
+}
 
-.pricing .pricing__container {}
+.pricing .pricing__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
 
-.pricing .pricing__container .pricing__header {}
+.pricing .pricing__header {
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 2.25rem;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
 
-.pricing .pricing__container .pricing__box {}
+.pricing .pricing__container .pricing__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 50px;
+    border-radius: 18px;
+    position: relative;
+}
 
-.pricing .pricing__box .pricing__box__version {}
+.pricing .pricing__container .pricing__box--left {
+    border: 1px solid #FB3B64;
+    width: 23.25rem;
+    height: 28.8125rem;
+}
+.pricing .pricing__container .pricing__box--central {
+    border: 1px solid var(--color_primary);
+    box-shadow: 5px 10px 27px #07ACE629;
+    width: 25.3125rem;
+    height: 31.25rem;
+    font-size: 21px;
+}
+.pricing .pricing__container .pricing__box--right {
+    border: 1px solid var(--color_shape_second);
+    width: 23.25rem;
+    height: 28.8125rem;
+}
 
-.pricing .pricing__box .pricing__list {}
+.pricing .pricing__box .pricing__box__price {
+    font-family: var(--font-open-sans);
+    font-weight: 300;
+    font-size: 2.875rem;
+}
 
-.pricing .pricing__box .pricing__box__btn {}
+.pricing .pricing__box .pricing__box__version {
+    font-family: var(--font-raleway);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.pricing .pricing__box .pricing__list {
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.pricing .pricing__box .pricing__list li {
+    margin-top: 20px;
+}
+
+.pricing .pricing__box .pricing__box__btn {
+    width: 9.375rem;
+    height: 3.5125rem;
+    background-color: #EB476E;
+    color: #fff;
+    border-radius: 23px;
+    border: none;
+    position: absolute;
+    bottom: -30px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/*Below are css selectors for form page*/
+
