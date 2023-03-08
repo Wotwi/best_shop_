@@ -371,3 +371,16 @@ a {
 
 /*Below are css selectors for form page*/
 
+.contact__section {}
+
+.contact__section .contact__header {}
+
+.contact__section .contact__description {}
+
+.contact__section .contact__email {}
+
+.contact__section .contact__phone {}
+
+.contact__section .contact__form {}
+
+.contact__section .contact__btn {}
