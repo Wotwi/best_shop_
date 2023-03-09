@@ -151,13 +151,24 @@
 </section>
 
 <section class="contact__section container">
-    <h2 class="contact__header">Any questions?</h2>
-    <p class="contact__description">Leave your email address or call us!</p>
-    <div class="contact__email">info@bestshop.xyz</div>
-    <div class="contact__phone">123 456 789</div>
-    <form class="contact__form" action="get"></form>
-    <input type="text"</input>
-    <input type="button" class="contact__btn">Send</input>
+    <div class="contact__data">
+        <h2 class="contact__header">Any questions?</h2>
+        <p class="contact__description">Leave your email address or call us!</p>
+        <div class="contact__email"><img class="mail__icon" src="./src/images/Mail Icon.svg"/>info@bestshop.xyz</div>
+        <div class="contact__phone"><img class="phone__icon" src="./src/images/Phone Icon.svg"/>123 456 789</div>
+    </div>
+
+    <form class="contact__form" action="get">
+        <div class="form__data">
+            <label for="name__form">Name</label>
+            <input type="text" id="name__form" name="name__form"/>
+            <label for="mail__form">Email</label>
+            <input type="email" name="mail__form" id="mail__form"/>
+            <input type="checkbox" class="checkbox__form"/>
+            <p class="form__agree_text">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+            <input type="button" class="contact__btn" value="Send"/>
+        </div>
+    </form>
 </section>
 
 </body>

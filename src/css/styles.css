@@ -49,7 +49,7 @@ a {
     text-transform: uppercase;
     font-size: 0.6875rem;
     letter-spacing: 0.205rem;
-    padding: 28px 47.5px 24px 47.5px;
+    padding: 1.75rem 2.96875rem 1.5rem 2.96875rem;
 }
 
 .header nav .nav__element:hover {
@@ -186,7 +186,6 @@ a {
     background-color: #fff;
     border: 1px solid #E8E9ED;
     margin: 37px 0 0 0;
-    border: 1px solid #E8E9ED;
     border-radius: 5px;
 }
 .benefits__single--notebook::before {
@@ -288,7 +287,6 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 100px;
 }
 
 .pricing .pricing__header {
@@ -371,16 +369,114 @@ a {
 
 /*Below are css selectors for form page*/
 
-.contact__section {}
+.contact__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 56rem;
+    padding-top: 159px;
+    padding-bottom: 60px;
+}
 
-.contact__section .contact__header {}
+.contact__section .contact__data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
 
-.contact__section .contact__description {}
+.contact__section .form__data {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
 
-.contact__section .contact__email {}
+.contact__section .contact__data img {
+    display: inline-block;
+    width: 1.6875rem;
+    height: 1.6875rem;
+}
 
-.contact__section .contact__phone {}
+.contact__section .contact__header {
+    font-family: var(--font-raleway);
+    font-size: 3.0625rem;
+    line-height: 3.5625rem;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.contact__section .contact__description {
+    font-family: var(--font-open-sans);
+    font-size: 1rem;
+    line-height: 1.375rem;
+    margin-top: 0;
+    margin-bottom: 42px;
+    width: 100%;
+    text-align: left;
+}
+
+.contact__section .contact__email, .contact__phone {
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 1rem;
+    color: #A5A5A5;
+    width: 30%;
+    position: relative;
+    margin-left: 30px;
+    text-align: left;
+    margin: 0 35px 0 35px;
+}
+
+.mail__icon, .phone__icon {
+    position: absolute;
+    top: -5px;
+    left: -30px;
+}
 
 .contact__section .contact__form {}
 
-.contact__section .contact__btn {}
+.contact__btn {
+    display: block;
+    width: 14.125rem;
+    height: 3.5625rem;
+    border-radius: 35px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border: none;
+    background-color: var(--color_primary);
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 100%;
+}
+
+input[type="text"], input[type="email"]{
+    width: 27.5rem;
+    height: 3.5625rem;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #95989A;
+    border-left: none;
+}
+
+.form__data label {
+    margin-top: 2.625rem;
+    color: var(--color_primary)
+}
+
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+    position: absolute;
+    bottom: 145px;
+}
+
+.form__agree_text {
+    width: 25.3125rem;
+    color: #707070;
+    font-size: 0.75rem;
+    line-height: 1.0625rem;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 30px;
+}
