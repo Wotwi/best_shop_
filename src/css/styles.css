@@ -480,3 +480,11 @@ input[type="checkbox"] {
     margin-left: 40px;
     margin-top: 30px;
 }
+
+/*Below are css selectors for form page*/
+
+.footer__container {}
+.footer__container .footer__description {}
+.footer__container .footer__icons {}
+.footer__container .footer__icons .twitter__icon {}
+.footer__container .footer__icons .facebook__icon {}
