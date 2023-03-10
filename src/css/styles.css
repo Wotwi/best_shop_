@@ -36,7 +36,7 @@ a {
     align-items: center;
 }
 
-.header .logo{
+.logo{
     color: var(--color_primary);
     font-family: var(--font-raleway);
     font-size: 2rem;
